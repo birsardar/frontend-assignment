@@ -47,3 +47,39 @@ p {
 .cardbtns:hover {
     background-color: #3cb300;
 }
+
+/* Styles for screens with a maximum width of 767 pixels */
+@media screen and (max-width: 767px) {
+    .product {
+        flex-direction: column;
+        /* Stack the image and product details in a column layout */
+        align-items: center;
+        /* Center align the items */
+    }
+
+    .detail-img {
+        margin-right: 0;
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 10px;
+        /* Remove right margin and add bottom margin for spacing */
+    }
+
+    .product-details {
+        text-align: center;
+        /* Center align the product details */
+    }
+
+    .button-container {
+        justify-content: center;
+        /* Center align the button */
+    }
+}
+
+/* Styles for screens with a maximum width of 479 pixels */
+@media screen and (max-width: 479px) {
+    .cardbtns {
+        font-size: 12px;
+        /* Reduce the font size for small screens */
+    }
+}
