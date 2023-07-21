@@ -59,7 +59,7 @@ export default function Cart({ cartItems, removeFromCart, setCartItems }) {
         <Link to="/" className="btn btn-primary">
           <FaArrowLeft /> Back
         </Link>
-        <div className="mt-3">
+        <div className=" content mt-3">
           <h3>Cart Items</h3>
           {cartItems.length === 0 ? (
             <div className="noitem">
