@@ -35,7 +35,15 @@ const App = () => {
               }
             />
             <Route path="/productcard" />
-            <Route path="/productdetail/:id" element={<ProductDetail />} />
+            <Route
+              path="/productdetail/:id"
+              element={
+                <ProductDetail
+                  cartItems={cartItems}
+                  setCartItems={setCartItems}
+                />
+              }
+            />
             <Route
               path="/cart"
               element={
