@@ -145,7 +145,10 @@ export default function ProductCard({ cartItems, setCartItems }) {
       <Modal show={modalVisible} onHide={() => setModalVisible(false)}>
         <Modal.Header closeButton>
           <Modal.Title>
-            Product added to cart! view cart <Link to="/cart">here</Link>
+            Product added to cart!
+            <Link to="/cart">
+              <button>view cart</button>
+            </Link>
           </Modal.Title>
         </Modal.Header>
         <Modal.Footer>

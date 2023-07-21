@@ -21,3 +21,29 @@
 p {
     font-size: 10px;
 }
+
+
+/* Add a new class for the container of the button */
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Align items to the right side */
+}
+
+.cardbtns {
+    /* Existing styles for the button */
+    background-color: #ffe600;
+    font-weight: bold;
+    line-height: 5vh;
+    color: #000000;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cardbtns:hover {
+    background-color: #3cb300;
+}

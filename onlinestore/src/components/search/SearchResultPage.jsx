@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import SearchResult from "./SearchResult";
+import SearchResult from "../search/SearchResult";
 
 const SearchResultPage = ({ setCartItems, cartItems }) => {
   const location = useLocation();

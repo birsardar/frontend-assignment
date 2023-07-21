@@ -8,7 +8,7 @@ import Cart from "./components/cart/Cart";
 import ProductCard from "./components/product/ProductCard";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer/Footer";
-import SearchResultPage from "./components/product/SearchResultPage";
+import SearchResultPage from "./components/search/SearchResultPage";
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);

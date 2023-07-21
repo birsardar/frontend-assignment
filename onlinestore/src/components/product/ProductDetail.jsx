@@ -33,6 +33,11 @@ const ProductDetail = ({ onBack }) => {
             <p>{data.description}</p>
           </div>
         </div>
+
+        <div className="button-container">
+          {/* Add the button container */}
+          <button className="cardbtns">Add to cart</button>
+        </div>
       </div>
     </div>
   );

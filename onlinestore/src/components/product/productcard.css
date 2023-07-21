@@ -1,3 +1,99 @@
+/* Add styles for the Bootstrap modal */
+.modal-content {
+    background-color: #fff;
+    /* Set the background color of the modal content */
+    border-radius: 8px;
+    /* Add rounded corners to the modal content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a box shadow to create a shadow effect */
+}
+
+.modal-header {
+    background-color: khaki;
+    /* Set the background color of the modal header */
+    border-bottom: none;
+    /* Remove the bottom border of the modal header */
+    padding: 15px;
+    /* Add some padding to the modal header */
+}
+
+.modal-title {
+    font-size: 18px;
+    /* Set the font size of the modal title */
+    font-weight: bold;
+    /* Add bold font weight to the modal title */
+    text-decoration: none;
+
+}
+
+
+.modal-header button {
+    background-color: red;
+}
+
+.modal-title button {
+    margin-left: 12px;
+    font-size: 20px;
+    /* Set the font size of the Close button */
+    background-color: #377037;
+    font-weight: bold;
+}
+
+.modal-title button:hover {
+    color: #fff;
+    /* Set the background color of the secondary button on hover */
+}
+
+
+.modal-body {
+    padding: 15px;
+    /* Add some padding to the modal body */
+}
+
+.modal-footer {
+    border-top: none;
+    /* Remove the top border of the modal footer */
+    padding: 15px;
+    /* Add some padding to the modal footer */
+}
+
+/* Style the Close button in the modal header */
+.modal-header .close {
+    font-size: 20px;
+    /* Set the font size of the Close button */
+}
+
+/* Style the secondary button in the modal footer */
+.modal-footer .btn-secondary {
+    background-color: #020202;
+    font-size: 15px;
+    /* Set the background color of the secondary button */
+    color: #fff;
+    /* Set the text color of the secondary button */
+    font-weight: bold;
+    /* Add bold font weight to the secondary button */
+    border-radius: 5px;
+    /* Add rounded corners to the secondary button */
+}
+
+/* Style the secondary button on hover */
+.modal-footer .btn-secondary:hover {
+    background-color: red;
+
+    /* Set the background color of the secondary button on hover */
+}
+
+
+button {
+    outline: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    outline: none;
+    background-color: green;
+}
+
 .img-card {
     height: 100px;
     width: 100px;
@@ -147,12 +243,14 @@
     max-height: 150px;
     overflow-y: auto;
     overflow-x: hidden;
+    border: none;
 }
 
 .suggestion {
     padding: 8px 12px;
     font-style: #fff;
     cursor: pointer;
+    border: none;
 }
 
 .suggestion:hover {
@@ -165,7 +263,7 @@
 /* On small screens, you may want to change the width to 50% or adjust as needed */
 
 /* Styles for screens with a maximum width of 649 pixels */
-@media screen and (max-width: 649px) {
+@media screen and (max-width: 767px) {
     .col-md-3 {
         width: 100%;
         float: none;
@@ -187,23 +285,38 @@
     }
 
     .filter-body {
+        width: auto;
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        align-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        /* align-items: center;
+        align-content: center; */
         /* Stack the filter elements in a column layout */
     }
 
     /* Add some spacing between filter elements */
     .filter-body>*+* {
+        width: auto;
         margin-top: 10px;
+    }
+
+    .filter-body button {
+        /* Set a smaller width for the buttons */
+        width: 80px;
+        /* Adjust the font size and padding for a more compact look */
+        font-size: 15px;
+        padding: 3px 6px;
     }
 
     .suggestions {
         margin: 0px;
-        margin-left: 22rem;
+        margin-left: 11.75rem;
         font-size: 11px;
         width: 50%;
         border-style: double;
+        border: none;
     }
 
     .card-title {
@@ -232,5 +345,32 @@
     .button-cart-view .cart-btn {
         margin: 5px;
     }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1080px) {
+    .col-md-3 {
+        width: 50%;
+        float: none;
+        /* Reset the card width and float */
+    }
+
+    .card {
+        width: auto;
+        margin-left: 0px;
+        /* Add some margin to create space between cards */
+        margin-bottom: 10px;
+    }
+
+    .card-title {
+        height: 4.6vh;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
 
 }
