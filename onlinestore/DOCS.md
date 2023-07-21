@@ -1,6 +1,6 @@
 # Online Store
 
-Online Store is a web application that allows users to browse and purchase products online. It provides a user-friendly interface to search for products, filter them by categories and price range, and add them to the shopping cart for purchase.
+This is a React Application that is done as a part of the React internship assignment for Internsathi. In this website, you can view the products, add them to cart, view the cart, and also search for products. All data are fetched through API.
 
 ## Table of Contents
 
@@ -35,22 +35,21 @@ To run this project, you need to have the following installed on your local mach
 
 1. Clone the repository to your local machine:
 
-    https://github.com/birsardar/frontend-assignment.git
-    
+   https://github.com/birsardar/frontend-assignment.git
+
 2. Change into the project directory:
 
-    cd onlinestore
-    
+   cd onlinestore
+
 3. Install the required dependencies:
 
-    Using npm:  npm install
+   Using npm: npm install
 
-    
 ## Usage
 
 1. Start the development server:
 
-Using npm:  npm start
+Using npm: npm start
 
 2. Open your web browser and go to `http://localhost:3000` to access the application.
 
@@ -70,7 +69,3 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 ## Contact
 
 For any inquiries or questions, please contact us at birsardar@gmail.com
-
-
-
-
