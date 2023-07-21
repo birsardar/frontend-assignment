@@ -26,7 +26,7 @@ export default function Footer() {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              9812345678
+              9817310327
             </h4>
           </div>
           <div className="email">
@@ -35,18 +35,17 @@ export default function Footer() {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              admin@admin.com
+              birsardar@gmail.com
             </h4>
           </div>
         </div>
         <div className="right">
-          <h4>About Company</h4>
+          <h4>About OnlineStore</h4>
           <p>
-            Our intuitive interface allows you to personalize your news feed,
-            tailoring it to your interests and preferences. Explore a wide range
-            of categories and topics, and discover new perspectives from trusted
-            sources around the world. Stay ahead of the curve with real-time
-            notifications and trending stories, ensuring you never miss a beat.
+            This is a React Application that is done as a part of the React
+            internship assignment for Internsathi. In this website, you can view
+            the products, add them to cart, view the cart, and also search for
+            products. All data are fetched through API.
           </p>
           <div className="social">
             <FaFacebook
